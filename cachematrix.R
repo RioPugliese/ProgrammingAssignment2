@@ -58,7 +58,7 @@ cacheSolve <- function(mt, ...){
 
 # ======
 # Checks
-my_mtx <- makeCacheMatrix(matrix(1:4,nrow =2,ncol = 2))
+my_mtx <- makeCacheMatrix(matrix(1:4, nrow = 2, ncol = 2))
 my_mtx$getMtx()
 my_mtx$getInverseMtx()
 cacheSolve(my_mtx)
